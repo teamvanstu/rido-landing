@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RIDO Drywall | Vancouver's Trusted Drywall Experts</title>
+    <link rel="icon" type="image/png" href="logo.png">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <style>
@@ -19,7 +20,7 @@
         }
 
         .hero-gradient {
-            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('img/header.png');
             background-size: cover;
             background-position: center;
         }
@@ -41,9 +42,9 @@
     <nav class="fixed w-full z-50 glass-nav shadow-sm">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-20">
-                <div class="flex items-center">
-                    <span class="text-3xl font-bold tracking-tighter text-blue-900 brand-font">RIDO <span class="text-orange-600">DRYWALL</span></span>
-                </div>
+                <a href="#" class="flex items-center">
+                    <img src="logo.png" alt="RIDO Logo" class="h-16 w-auto hover:opacity-80 transition">
+                </a>
                 <div class="hidden md:flex items-center space-x-8 font-semibold text-sm uppercase tracking-wider">
                     <a href="#about" class="hover:text-orange-600 transition">About</a>
                     <a href="#services" class="hover:text-orange-600 transition">Services</a>
@@ -74,23 +75,23 @@
     <!-- Stats Section -->
     <section class="py-12 bg-blue-900 text-white">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-8 text-center">
                 <div>
                     <div class="text-4xl font-bold text-orange-500 mb-2">20+</div>
                     <div class="text-sm uppercase tracking-widest text-blue-200">Years Experience</div>
                 </div>
                 <div>
-                    <div class="text-4xl font-bold text-orange-500 mb-2">1k+</div>
+                    <div class="text-4xl font-bold text-orange-500 mb-2">200+</div>
                     <div class="text-sm uppercase tracking-widest text-blue-200">Projects Completed</div>
                 </div>
                 <div>
                     <div class="text-4xl font-bold text-orange-500 mb-2">100%</div>
                     <div class="text-sm uppercase tracking-widest text-blue-200">Satisfaction Rate</div>
                 </div>
-                <div>
+                <!-- <div>
                     <div class="text-4xl font-bold text-orange-500 mb-2">BC</div>
                     <div class="text-sm uppercase tracking-widest text-blue-200">Licensed & Insured</div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -101,7 +102,7 @@
             <div class="flex flex-col md:flex-row items-center gap-16">
                 <div class="md:w-1/2">
                     <div class="relative">
-                        <img src="https://images.unsplash.com/photo-1503387762-592dee58c460?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Work in progress" class="rounded-2xl shadow-2xl relative z-10">
+                        <img src="img/working.png" alt="Work in progress" class="rounded-2xl shadow-2xl relative z-10">
                         <div class="absolute -bottom-6 -right-6 w-full h-full border-8 border-orange-100 rounded-2xl z-0"></div>
                     </div>
                 </div>
@@ -185,24 +186,17 @@
                     
                     <div class="space-y-6">
                         <div class="flex items-start space-x-4">
-                            <i class="fa-solid fa-location-dot mt-1 text-orange-500"></i>
-                            <div>
-                                <h5 class="font-bold">Headquarters</h5>
-                                <p class="text-gray-400">698 Seymour St<br>Vancouver, BC V6B 3K6</p>
-                            </div>
-                        </div>
-                        <div class="flex items-start space-x-4">
                             <i class="fa-solid fa-phone mt-1 text-orange-500"></i>
                             <div>
                                 <h5 class="font-bold">Phone</h5>
-                                <p class="text-gray-400">(604) 555-0198</p>
+                                <p class="text-gray-400">(778) 231-6694</p>
                             </div>
                         </div>
                         <div class="flex items-start space-x-4">
                             <i class="fa-solid fa-envelope mt-1 text-orange-500"></i>
                             <div>
                                 <h5 class="font-bold">Email</h5>
-                                <p class="text-gray-400">info@ridodrywall.com</p>
+                                <p class="text-gray-400">admin@ridodrywall.ca</p>
                             </div>
                         </div>
                     </div>
@@ -251,7 +245,7 @@
     <!-- Footer -->
     <footer class="bg-gray-900 py-12 text-white border-t border-gray-800">
         <div class="max-w-7xl mx-auto px-4 text-center">
-            <div class="text-3xl font-bold tracking-tighter text-white brand-font mb-4">RIDO <span class="text-orange-600">DRYWALL</span></div>
+            <img src="logo.png" alt="RIDO Logo" class="h-16 opacity-100 grayscale mx-auto mb-4">
             <p class="text-gray-400 mb-8 max-w-md mx-auto">Expert drywall solutions in Vancouver for over two decades. Quality you can see, reliability you can trust.</p>
             <div class="flex justify-center space-x-6 mb-8 text-2xl">
                 <a href="#" class="hover:text-orange-500 transition"><i class="fa-brands fa-facebook"></i></a>
@@ -284,5 +278,4 @@
     </script>
 </body>
 </html>
-
 
